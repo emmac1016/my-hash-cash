@@ -1,6 +1,6 @@
 {
   "name": "my-hash-cash",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "npm run prod",
@@ -31,6 +31,9 @@
     "presets": [
       "@babel/preset-env"
     ]
+  },
+  "engines": {
+    "node": "^10.13.0"
   },
   "nodemonConfig": {
     "exec": "npm run dev",
